@@ -8,7 +8,7 @@ from tkinter import colorchooser
 def add_block(): # to add block
     print("Add Block!") # TODO
     #label = Label(window, bg="red", width=10, height=5)
-    label.place()
+    label.place(x=0, y=0)
     label.forget()
 
     label.bind("<Button-1>",drag_start)
